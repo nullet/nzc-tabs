@@ -3,6 +3,7 @@
     <apiVersion>54.0</apiVersion>
     <isExposed>True</isExposed>
     <targets>
+        <target>lightning__UtilityBar</target>
         <target>lightning__AppPage</target>
         <target>lightning__HomePage</target>
     </targets>
