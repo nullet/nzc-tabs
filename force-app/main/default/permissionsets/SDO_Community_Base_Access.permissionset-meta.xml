@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>standard__Community</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>What: Base access to view and access SDO Communities. Who: Jesse Chase. When: Sept, 2021.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Base Access</label>
+</PermissionSet>

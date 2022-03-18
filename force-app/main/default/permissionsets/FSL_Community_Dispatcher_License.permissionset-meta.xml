@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Community Dispatcher License</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service Community Dispatcher License</label>
+    <license>FieldServiceDispatcherPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceDispatcher</name>
+    </userPermissions>
+</PermissionSet>

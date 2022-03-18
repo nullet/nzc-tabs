@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use Teams Integration Perm and addition perms needed to demo Microsoft teams integration.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Platform - Microsoft Teams Integration</label>
+</PermissionSet>

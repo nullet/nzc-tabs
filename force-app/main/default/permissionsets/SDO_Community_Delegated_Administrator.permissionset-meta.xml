@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Assigned to users at a company to administer their users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Delegated Administrator</label>
+    <license>Partner Community</license>
+    <tabSettings>
+        <tab>standard-ContentSearch</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DelegatedPortalUserAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+</PermissionSet>

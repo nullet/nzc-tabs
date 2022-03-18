@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Filter Gen Tool for TCRM. No assignments. Likely a candidate for removal.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>TCRM - EA Filter Gen</label>
+    <tabSettings>
+        <tab>SDO_Analytics_Filter_Gen</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

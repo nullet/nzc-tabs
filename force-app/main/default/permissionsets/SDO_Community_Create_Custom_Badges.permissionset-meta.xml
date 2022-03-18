@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Allows user to create custom badges for communities.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Create Custom Badges</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateWorkBadgeDefinition</name>
+    </userPermissions>
+</PermissionSet>

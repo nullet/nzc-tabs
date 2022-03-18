@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Grants anonymous users access to the community and the storefront&apos;s product catalog.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>B2B Commerce - Guest</label>
+</PermissionSet>

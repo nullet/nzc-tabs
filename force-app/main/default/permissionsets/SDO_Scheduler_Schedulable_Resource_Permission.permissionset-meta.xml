@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Makes a user able to be scheduled against for the service resource object.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Scheduler - Schedulable Resource Permission</label>
+    <license>LightningSchedulerPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningSchedulerUserAccess</name>
+    </userPermissions>
+</PermissionSet>

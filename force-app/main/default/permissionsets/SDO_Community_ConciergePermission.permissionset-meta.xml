@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Concierge Permissions</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Concierge Permission</label>
+    <license>Customer Community Plus</license>
+</PermissionSet>

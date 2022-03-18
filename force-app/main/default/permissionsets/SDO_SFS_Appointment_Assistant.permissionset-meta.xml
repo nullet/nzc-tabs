@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Permission Set for Field Service Appointment Assistant / Last Mile - Allows Users to participate in FS Last Mile</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service - Appointment Assistant</label>
+    <license>FieldServiceLastMilePsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceLastMile</name>
+    </userPermissions>
+</PermissionSet>

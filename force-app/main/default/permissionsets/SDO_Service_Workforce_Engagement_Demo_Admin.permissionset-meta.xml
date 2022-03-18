@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Used for Workforce Engagement demos to enable &quot;Set Audit Fields upon Record Creation&quot; and &quot;Bulk API Hard Delete&quot; perms. These are used to aid in bulk import and deletion of training data.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Service - Workforce Engagement Demo Admin</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>BulkApiHardDelete</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Einstein Answers needs the guidance of Answer Champions to verify Einstein-generated suggested answers for accuracy, and post them to the community. These users are community moderators who love helping out others.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Einstein - Generated Answers</label>
+</PermissionSet>

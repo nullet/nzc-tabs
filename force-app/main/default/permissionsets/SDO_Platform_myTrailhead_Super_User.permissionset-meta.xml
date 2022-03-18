@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: myTrailhead Super User access to data model and demo.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Platform - myTrailhead Super User</label>
+    <license>MyTrailheadPSL</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadBranding</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadContentAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadContentCreation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadCustomSteps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadPreviewMode</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MyTrailheadReleaseMgmt</name>
+    </userPermissions>
+</PermissionSet>

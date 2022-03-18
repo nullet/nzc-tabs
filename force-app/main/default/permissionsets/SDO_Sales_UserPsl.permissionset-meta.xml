@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Denotes that the user is a Sales Cloud user.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales - User PSL</label>
+    <license>SalesUserPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CampaignInfluence2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PardotUser</name>
+    </userPermissions>
+</PermissionSet>

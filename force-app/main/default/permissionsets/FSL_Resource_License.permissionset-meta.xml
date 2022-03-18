@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: This PS grants access to the FSL Scheduling PSL</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service Resource License</label>
+    <license>FieldServiceSchedulingPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceScheduling</name>
+    </userPermissions>
+</PermissionSet>

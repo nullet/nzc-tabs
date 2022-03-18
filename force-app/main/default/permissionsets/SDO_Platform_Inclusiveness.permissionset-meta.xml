@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: collection of fields to ensure inclusiveness of our contact/person accounts in our orgs</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.SDO_PA_Inclusive_Preferred_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.SDO_PA_Inclusive_Pronouns__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.SDO_PA_Inclusive_TDD_TTY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Platform - Inclusiveness</label>
+</PermissionSet>

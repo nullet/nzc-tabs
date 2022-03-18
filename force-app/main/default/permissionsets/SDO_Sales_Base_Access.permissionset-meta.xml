@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>SDO_Channel_Sales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>SDO_Sales_App</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>SDO_Sales_Console</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__HVSConsole</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>What: Grants access to apps/objects for base Sales Cloud demos. Who: Jesse Chase. When: Sept, 2021.</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.SDO_Sales_Lead_Quality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.SDO_Sales_Lead_Total__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales - Base Access</label>
+</PermissionSet>

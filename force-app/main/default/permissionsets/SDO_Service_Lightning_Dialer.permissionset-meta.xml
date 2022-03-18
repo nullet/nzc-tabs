@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Makes available the click-to-dial Lightning Dialer demo.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Service - Lightning Dialer</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>VoiceInbound</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>VoiceMinutes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>VoiceOutbound</name>
+    </userPermissions>
+</PermissionSet>

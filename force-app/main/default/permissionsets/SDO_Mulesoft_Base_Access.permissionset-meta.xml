@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>ms_ci__Composer</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>What: Grants App access to the Mulesoft app. Who: Jesse Chase. When: Sept, 2021.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Mulesoft - Base Access</label>
+</PermissionSet>

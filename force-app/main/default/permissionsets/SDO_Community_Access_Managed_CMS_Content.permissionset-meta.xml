@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Used with Salesforce CMS to give access to its delivery APIs and create channels in the CMS app.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Access Managed CMS Content</label>
+</PermissionSet>

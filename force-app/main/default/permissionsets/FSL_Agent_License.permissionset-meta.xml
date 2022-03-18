@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Agent License</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service Agent License</label>
+    <license>FieldServiceStandardPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Grants Sales Cloud Einstein PSL</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales - Einstein PSL</label>
+    <license>SalesCloudEinsteinPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccountIQUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AutomatedDataEntry</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AutomaticActivityCapture</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanEditDataPrepRecipe</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InsightsAppEltEditor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LeadScoreUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTemplatedApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OpportunityIQUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OpportunityScoreUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseTemplatedApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewForecastingPredictive</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>WaveTabularDownload</name>
+    </userPermissions>
+</PermissionSet>

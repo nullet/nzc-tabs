@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Automatically process inbound social content and execute Social Customer Service Apex. Don&apos;t change the permission set&apos;s API name.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Social Customer Service Inbound Automation</label>
+</PermissionSet>

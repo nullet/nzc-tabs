@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Grants Perms to Einstein Activity Capture.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Einstein - Activity Capture</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AutomaticActivityCapture</name>
+    </userPermissions>
+</PermissionSet>

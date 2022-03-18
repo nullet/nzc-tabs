@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Grants Einstein Discovery Analyst PSL. Not currently assigned to any users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Einstein - Manage Einstein Data Discovery</label>
+    <license>SmartDataDiscoveryAnalystPsl</license>
+</PermissionSet>

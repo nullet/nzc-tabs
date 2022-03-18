@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>QLabs__mdt</name>
+    </customMetadataTypeAccesses>
+    <description>What: Created for the Analytics Cloud Integration User to access the Q Labs &quot;SDO&quot; custom setting.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tool - Q Labs Custom Metadata</label>
+</PermissionSet>

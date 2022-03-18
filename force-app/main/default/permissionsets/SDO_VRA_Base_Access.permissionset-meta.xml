@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Includes access to custom fields and objects required for the VRA Demo.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tspa__MiniDashboard_API_Details__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>tspa__TechSee_Account_Creation__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>VRA - Base Access</label>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Allows user to create workspaces in CMS App.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Create Workspaces in Salesforce CMS</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCMS</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Allows moderation of posts in community.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Moderate Customer Community</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModerateNetworkFiles</name>
+    </userPermissions>
+</PermissionSet>

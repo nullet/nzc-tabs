@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Includes the Data Mask User License</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Platform - Data Mask User</label>
+    <license>datamask.DataMaskUserPsl</license>
+</PermissionSet>

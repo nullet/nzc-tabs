@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Gives access to the Lightning Experience on a user-by-user basis.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Platform - Lightning Experience User</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+</PermissionSet>

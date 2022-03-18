@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Includes the TCRM for Net Zero Analytics PSL</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Net Zero - TCRM for Net Zero PSL</label>
+    <license>TCRMforSustainabilityPsl</license>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Enables the Community360 component on Contact &amp; Case records for internal users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Community - Community 360</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewCustomerSentiment</name>
+    </userPermissions>
+</PermissionSet>

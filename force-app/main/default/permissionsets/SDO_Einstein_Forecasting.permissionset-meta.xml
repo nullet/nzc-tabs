@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>What: Einstein Forecasting Perms. Not currently assigned to any users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Einstein - Einstein Forecasting</label>
+    <license>SalesCloudEinsteinPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewForecastingPredictive</name>
+    </userPermissions>
+</PermissionSet>
