@@ -1,12 +1,10 @@
 <template>
   <lightning-accordion class="nzc-tabs" onsectiontoggler={handleToggleSection}>
     <lightning-accordion-section name="Stationary" label="Stationary Assets">
-      <lightning-card>
-        <lightning-button
-          label="Stationary Asset Carbon Footprint"
-          onclick={navToStatAssetCrbnFtprnt}
-        ></lightning-button>
-      </lightning-card>
+      <lightning-button variant="base" label="Stationary Asset Environmental Sources" onclick={navToStnryAssetEnvrSrc}></lightning-button>
+      <lightning-button variant="base" label="Stationary Asset Carbon Footprint" onclick={navToStnryAssetCrbnFtprnt}></lightning-button>
+      <lightning-button variant="base" label="Stationary Asset Energy Use" onclick={navToStnryAssetEnrgyUse}></lightning-button>
+      </lightning-button>
     </lightning-accordion-section>
     
     <lightning-accordion-section name="Vehicle" label="Vehicle Assets">
@@ -16,9 +14,7 @@
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Scope 3" label="Scope 3">
-      <lightning-card>
-        <lightning-button label="Emission Factors - Scope 3" onclick={navToS3EmFctrs}></lightning-button>
-      </lightning-card>
+      <lightning-button variant="base" label="Emission Factors - Scope 3" onclick={navToS3EmFctrs}></lightning-button>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Emissions" label="Emissions Factors">

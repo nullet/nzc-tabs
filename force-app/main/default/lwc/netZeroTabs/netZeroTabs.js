@@ -9,22 +9,46 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
     accordion.activeSectionName = 'Stationary';  
   }
 
-  navToStatAssetCrbnFtprnt() {
+
+
+// --------------------  STATIONARY ASSETS NAV FUNCTIONS--------------------
+  navToStnryAssetEnvrSrc() {
     this[NavigationMixin.Navigate]({
       type: 'standard__objectPage',
       attributes: {
-        objectApiName: 'ns__CrbnEmssnScopeAllocVal',
-        actionName: 'list'
+        objectApiName: 'StnryAssetEnvrSrc',
+        actionName: 'home'
       }
-    });
+    })
   };
+  
+  navToStnryAssetCrbnFtprnt() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'StnryAssetCrbnFtprnt',
+        actionName: 'home'
+      }
+    })
+  };
+
+  navToStnryAssetEnrgyUse() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'StnryAssetEnrgyUse',
+        actionName: 'home'
+      }
+    })
+  };
+
 
   navToS3EmFctrs() {
     this[NavigationMixin.Navigate]({
       type: 'standard__objectPage',
       attributes: {
         objectApiName: 'sustain_app__EmissionFactorScope3__c',
-        actionName: 'list'
+        actionName: 'home'
       }
     })
   };
