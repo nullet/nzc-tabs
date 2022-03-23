@@ -1,9 +1,12 @@
 <template>
   <lightning-accordion class="nzc-tabs" onsectiontoggler={handleToggleSection}>
     <lightning-accordion-section name="Stationary" label="Stationary Assets">
-      <a href="https://tnullet-220316-524-demo.lightning.force.com/lightning/o/StnryAssetCrbnFtprnt/list?filterName=Recent">
-      Stationary Asset Carbon Footprint
-      </a>
+      <lightning-card>
+        <lightning-button
+          label="Stationary Asset Carbon Footprint"
+          onclick={navToStatAssetCrbnFtprnt}
+        ></lightning-button>
+      </lightning-card>
     </lightning-accordion-section>
     
     <lightning-accordion-section name="Vehicle" label="Vehicle Assets">
@@ -13,6 +16,9 @@
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Scope 3" label="Scope 3">
+      <lightning-card>
+        <lightning-button label="Emission Factors - Scope 3" onclick={navToS3EmFctrs}></lightning-button>
+      </lightning-card>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Emissions" label="Emissions Factors">
