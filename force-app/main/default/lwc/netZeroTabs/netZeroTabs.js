@@ -9,8 +9,6 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
     accordion.activeSectionName = 'Stationary';  
   }
 
-
-
 // --------------------  STATIONARY ASSETS NAV FUNCTIONS--------------------
   navToStnryAssetEnvrSrc() {
     this[NavigationMixin.Navigate]({
@@ -21,7 +19,6 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
-  
   navToStnryAssetCrbnFtprnt() {
     this[NavigationMixin.Navigate]({
       type: 'standard__objectPage',
@@ -31,12 +28,40 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
-
   navToStnryAssetEnrgyUse() {
     this[NavigationMixin.Navigate]({
       type: 'standard__objectPage',
       attributes: {
         objectApiName: 'StnryAssetEnrgyUse',
+        actionName: 'home'
+      }
+    })
+  };
+
+// --------------------  VEHICLE ASSETS NAV FUNCTIONS--------------------
+  navToVehicleAssetEmssnSrc() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'VehicleAssetEmssnSrc',
+        actionName: 'home'
+      }
+    })
+  };
+  navToVehicleAssetCrbnFtprnt() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'VehicleAssetCrbnFtprnt',
+        actionName: 'home'
+      }
+    })
+  };
+  navToVehicleAssetEnrgyUse() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'VehicleAssetEnrgyUse',
         actionName: 'home'
       }
     })

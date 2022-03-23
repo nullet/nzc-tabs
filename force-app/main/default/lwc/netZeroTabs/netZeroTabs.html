@@ -1,13 +1,39 @@
 <template>
   <lightning-accordion class="nzc-tabs" onsectiontoggler={handleToggleSection}>
     <lightning-accordion-section name="Stationary" label="Stationary Assets">
-      <lightning-button variant="base" label="Stationary Asset Environmental Sources" onclick={navToStnryAssetEnvrSrc}></lightning-button>
-      <lightning-button variant="base" label="Stationary Asset Carbon Footprint" onclick={navToStnryAssetCrbnFtprnt}></lightning-button>
-      <lightning-button variant="base" label="Stationary Asset Energy Use" onclick={navToStnryAssetEnrgyUse}></lightning-button>
+      <lightning-button
+        variant="base"
+        label="Stationary Asset Environmental Sources"
+        onclick={navToStnryAssetEnvrSrc}>
+      </lightning-button>
+      <lightning-button 
+        variant="base" 
+        label="Stationary Asset Carbon Footprint" 
+        onclick={navToStnryAssetCrbnFtprnt}>
+      </lightning-button>
+      <lightning-button 
+        variant="base" 
+        label="Stationary Asset Energy Use" 
+        onclick={navToStnryAssetEnrgyUse}>
       </lightning-button>
     </lightning-accordion-section>
     
     <lightning-accordion-section name="Vehicle" label="Vehicle Assets">
+      <lightning-button
+        variant="base"
+        label="Vehicle Asset Environmental Sources"
+        onclick={navToVehicleAssetEmssnSrc}>
+      </lightning-button>
+      <lightning-button 
+        variant="base" 
+        label="Vehicle Asset Carbon Footprint" 
+        onclick={navToVehicleAssetCrbnFtprnt}>
+      </lightning-button>
+      <lightning-button 
+        variant="base" 
+        label="Vehicle Asset Energy Use" 
+        onclick={navToVehicleAssetEnrgyUse}>
+      </lightning-button>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Analytics" label="Analytics">
