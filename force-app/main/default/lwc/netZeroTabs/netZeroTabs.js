@@ -68,6 +68,32 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
   };
 
 
+
+
+// --------------------  ANALYTICS NAV FUNCTIONS--------------------
+
+  navToAnalytics() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__namedPage',
+      attributes: {
+        pageName: 'analytics',
+      }
+    })
+  };
+
+
+// --------------------  SCOPE 3 NAV FUNCTIONS--------------------
+
+  navToScope3EmssnSrc() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'Scope3EmssnSrc',
+        actionName: 'home'
+      }
+    })
+  };  
+
   navToS3EmFctrs() {
     this[NavigationMixin.Navigate]({
       type: 'standard__objectPage',
