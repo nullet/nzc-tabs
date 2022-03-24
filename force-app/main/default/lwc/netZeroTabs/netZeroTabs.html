@@ -31,6 +31,7 @@
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Scope 3" label="Scope 3">
+
       <lightning-button
         variant="base" label="Scope 3 Emissions Sources" onclick={navToScope3EmssnSrc}>
       </lightning-button>
@@ -59,18 +60,125 @@
         </lightning-button>
       </lightning-accordion-section>
 
+      <lightning-accordion-section name="Business Travel" label="Business Travel">
+        <lightning-button
+          variant="base" label="Air Travel Energy Use" onclick={navToAirTravelEnrgyUse}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Ground Travel Energy Use" onclick={navToGroundTravelEnrgyUse}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Hotel Stay Energy Use" onclick={navToHotelStayEnrgyUse}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Rental Car Energy Use" onclick={navToRentalCarEnrgyUse}>
+        </lightning-button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section name="Waste" label="Waste">
+      </lightning-accordion-section>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Emissions" label="Emissions Factors">
+      
+      <lightning-accordion-section name="Scope 1 and 2" label="Scope 1 and 2">
+        <lightning-button
+          variant="base" label="Electricity Emissions Factor Sets" onclick={navToElectricityEmssnFctrSet}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Other Emissions Factor Sets" onclick={navToOtherEmssnFctrSet}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Other Emissions Factor Set Items" onclick={navToOtherEmssnFctrSetItem}>
+        </lightning-button>
+        <br>
+        <lightning-button 
+          variant="base" label="Refrigerant Emissions Factors" onclick={navToRefrigerantEmssnFctr}>
+        </lightning-button>
+      </lightning-accordion-section>
+
+      <lightning-accordion-section name="Scope 3" label="Scope 3">
+        <lightning-button
+          variant="base" label="Procurement Emissions Factor Sets" onclick={navToPcmtEmssnFctrSet}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Procurement Emissions Factor Set Items" onclick={navToPcmtEmssnFctrSetItem}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Freight Hauling Emissions Factors" onclick={navToFrgtHaulingEmssnFctr}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Air Travel Emissions Factors" onclick={navToAirTravelEmssnFctr}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Ground Travel Emissions Factors" onclick={navToGroundTravelEmssnFctr}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Hotel Stay Emissions Factors" onclick={navToHotelStayEmssnFctr}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Rental Car Emissions Factors" onclick={navToRentalCarEmssnFctr}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Waste Disposal Emission Factor Set Items" onclick={navToWstDisposalEmFactorSetItms}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Waste Disposal Emissions Factor Sets" onclick={navToWstDisposalEmFactorSets}>
+        </lightning-button>
+      </lightning-accordion-section>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Building" label="Building Intensity">
+      <lightning-button
+          variant="base" label="Building Energy Intensities" onclick={navToBldgEnrgyIntensity}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Building Energy Intensity Values" onclick={navToBldgEnrgyIntensityVal}>
+        </lightning-button>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Forecasting" label="Forecasting">
+      <lightning-button
+          variant="base" label="Emissions Activities">
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Emissions Forecast Facts">
+        </lightning-button>
     </lightning-accordion-section>
 
     <lightning-accordion-section name="Setup" label="Setup">
+      <lightning-button variant="base" label="Carbon Emissions Scope Allocation Values" onclick={navToCrbnEmssnScopeAllocVal}>
+      </lightning-button>
+      <br>
+      <lightning-button variant="base" label="Carbon Emissions Scope Allocations" onclick={navToCrbnEmssnScopeAlloc}>
+      </lightning-button>
+      <br>
+      <lightning-button variant="base" label="Inflation Rates" onclick={navToInflationRate}>
+      </lightning-button>
+      <br>
+      <lightning-button variant="base" label="Stationary Asset Carbon Footprint Items" onclick={navToStnryAssetCrbnFtprntItm}>
+      </lightning-button>
+      <br>
+      <lightning-button variant="base" label="Waste Footprint Items" onclick={navToWasteFootprintItems}>
+      </lightning-button>
+      <br>
+      <lightning-button variant="base" label="Building Size Categories" onclick={navToBldgSizeCategory}>
+      </lightning-button>
     </lightning-accordion-section>
 
   </lightning-accordion>
