@@ -67,9 +67,6 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
     })
   };
 
-
-
-
 // --------------------  ANALYTICS NAV FUNCTIONS--------------------
 
   navToAnalytics() {
@@ -80,7 +77,6 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
-
 
 // --------------------  SCOPE 3 NAV FUNCTIONS--------------------
 
@@ -131,14 +127,14 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
-  navToSusScorecard() {
-    // this[NavigationMixin.Navigate]({
-    //   type: 'standard__objectPage',
-    //   attributes: {
-    //     objectApiName: 'Supplier',
-    //     actionName: 'home'
-    //   }
-    // })
+  navToSustainabilityScorecard() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'SustainabilityScorecard',
+        actionName: 'home'
+      }
+    })
   };
   navToFrgtHaulingEnrgyUse() {
     this[NavigationMixin.Navigate]({
@@ -184,6 +180,27 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       type: 'standard__objectPage',
       attributes: {
         objectApiName: 'RentalCarEnrgyUse',
+        actionName: 'home'
+      }
+    })
+  };
+
+// WASTE
+
+  navToWasteFootprint() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'WasteFootprint',
+        actionName: 'home'
+      }
+    })
+  };
+  navToGeneratedWaste() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'GeneratedWaste',
         actionName: 'home'
       }
     })
@@ -294,23 +311,23 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
-  navToWstDisposalEmFactorSetItms() {
-    // this[NavigationMixin.Navigate]({
-    //   type: 'standard__objectPage',
-    //   attributes: {
-    //     objectApiName: 'RefrigerantEmssnFctr',
-    //     actionName: 'home'
-    //   }
-    // })
+  navToWstDispoEmssnFctrSetItm() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'WstDispoEmssnFctrSetItm',
+        actionName: 'home'
+      }
+    })
   };
-  navToWstDisposalEmFactorSets() {
-    // this[NavigationMixin.Navigate]({
-    //   type: 'standard__objectPage',
-    //   attributes: {
-    //     objectApiName: 'RefrigerantEmssnFctr',
-    //     actionName: 'home'
-    //   }
-    // })
+  navToWstDispoEmssnFctrSet() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'WstDispoEmssnFctrSet',
+        actionName: 'home'
+      }
+    })
   };
 
 // --------------------  BUILDING ENERGY INTENSITY NAV FUNCTIONS -------------------
