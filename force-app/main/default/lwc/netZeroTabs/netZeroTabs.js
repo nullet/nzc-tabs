@@ -336,26 +336,24 @@ navToBldgEnrgyIntensity() {
 
 // -------------------- FORECASTING NAV FUNCTIONS ------------------
 
-// need to find the API info for this section
-
-// navToBldgEnrgyIntensity() {
-//     this[NavigationMixin.Navigate]({
-//       type: 'standard__objectPage',
-//       attributes: {
-//         objectApiName: 'BldgEnrgyIntensity',
-//         actionName: 'home'
-//       }
-//     })
-//   };
-//   navToBldgEnrgyIntensityVal() {
-//     this[NavigationMixin.Navigate]({
-//       type: 'standard__objectPage',
-//       attributes: {
-//         objectApiName: 'BldgEnrgyIntensityVal',
-//         actionName: 'home'
-//       }
-//     })
-//   };
+navToEmissionsActivity() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'EmissionsActivity',
+        actionName: 'home'
+      }
+    })
+  };
+  navToEmissionsForecastFact() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'EmissionsForecastFact',
+        actionName: 'home'
+      }
+    })
+  };
 
 // -------------------- SETUP NAV FUNCTIONS ------------------
 
@@ -395,15 +393,14 @@ navToCrbnEmssnScopeAllocVal() {
       }
     })
   };
-  // need api info for this one
-  navToWasteFootprintItems() {
-    // this[NavigationMixin.Navigate]({
-    //   type: 'standard__objectPage',
-    //   attributes: {
-    //     objectApiName: '',
-    //     actionName: 'home'
-    //   }
-    // })
+  navToWasteFootprintItem() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'WasteFootprintItem',
+        actionName: 'home'
+      }
+    })
   };
   navToBldgSizeCategory() {
     this[NavigationMixin.Navigate]({

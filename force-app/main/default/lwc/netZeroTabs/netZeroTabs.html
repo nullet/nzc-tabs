@@ -53,7 +53,7 @@
           variant="base" label="Scope 3 Procurement Items" onclick={navToScope3PcmtItem}>
         </lightning-button>
         <lightning-button
-          variant="base" label="Sustainability Scorecard" onclick={navToSusScorecard}>
+          variant="base" label="Sustainability Scorecard" onclick={navToSustainabilityScorecard}>
         </lightning-button>
         <lightning-button
           variant="base" label="Freight Hauling Energy Use" onclick={navToFrgtHaulingEnrgyUse}>
@@ -79,6 +79,13 @@
       </lightning-accordion-section>
 
       <lightning-accordion-section name="Waste" label="Waste">
+         <lightning-button
+          variant="base" label="Waste Footprints" onclick={navToWasteFootprint}>
+        </lightning-button>
+        <br>
+        <lightning-button
+          variant="base" label="Generated Waste" onclick={navToGeneratedWaste}>
+        </lightning-button>
       </lightning-accordion-section>
     </lightning-accordion-section>
 
@@ -153,11 +160,11 @@
 
     <lightning-accordion-section name="Forecasting" label="Forecasting">
       <lightning-button
-          variant="base" label="Emissions Activities">
+          variant="base" label="Emissions Activities" onclick={navToEmissionsActivity}>
         </lightning-button>
         <br>
         <lightning-button
-          variant="base" label="Emissions Forecast Facts">
+          variant="base" label="Emissions Forecast Facts" onclick={navToEmissionsForecastFact}>
         </lightning-button>
     </lightning-accordion-section>
 
@@ -174,7 +181,7 @@
       <lightning-button variant="base" label="Stationary Asset Carbon Footprint Items" onclick={navToStnryAssetCrbnFtprntItm}>
       </lightning-button>
       <br>
-      <lightning-button variant="base" label="Waste Footprint Items" onclick={navToWasteFootprintItems}>
+      <lightning-button variant="base" label="Waste Footprint Items" onclick={navToWasteFootprintItem}>
       </lightning-button>
       <br>
       <lightning-button variant="base" label="Building Size Categories" onclick={navToBldgSizeCategory}>
