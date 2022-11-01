@@ -207,6 +207,36 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
   };
 
 // --------------------  EMISSIONS FACTOR NAV FUNCTIONS --------------------
+
+  navToStnryAssetWaterFtprnts() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'StnryAssetWaterFtprnt',
+        actionName: 'home'
+      }
+    })
+  };
+  navToStnryAssetWtrFtprntItms() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'StnryAssetWtrFtprntItm',
+        actionName: 'home'
+      }
+    })
+  };
+  navToStnryAssetWaterActvtys() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'StnryAssetWaterActvty',
+        actionName: 'home'
+      }
+    })
+  };
+
+// --------------------  EMISSIONS FACTOR NAV FUNCTIONS --------------------
 // SCOPE 1 AND 2
 
   navToElectricityEmssnFctrSet() {
