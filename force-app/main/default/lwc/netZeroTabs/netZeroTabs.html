@@ -44,6 +44,10 @@
         variant="base" label="Supplier" onclick={navToSupplier}>
       </lightning-button>
       <br>
+      <lightning-button
+          variant="base" label="Supplier Product" onclick={navToSupplierProduct}>
+      </lightning-button>
+      <br>
 
       <lightning-accordion-section name="Value Chain" label="Value Chain">
         <lightning-button
@@ -100,6 +104,28 @@
       <br>
       <lightning-button 
         variant="base" label="Stationary Asset Water Activities" onclick={navToStnryAssetWaterActvtys}>
+      </lightning-button>
+    </lightning-accordion-section>
+    
+    <lightning-accordion-section name="Credits" label="Carbon Credits">
+      <lightning-button
+        variant="base" label="Carbon Credit Allocation Items" onclick={navToCrbnCreditAllocItems}>
+      </lightning-button>
+      <br>
+      <lightning-button
+          variant="base" label="Carbon Credit Allocations" onclick={navToCrbnCreditAllocs}>
+      </lightning-button>
+      <br>
+      <lightning-button 
+        variant="base" label="Sustainability Credits" onclick={navToSustainabilityCredits}>
+      </lightning-button>
+      <br>
+      <lightning-button 
+        variant="base" label="Sustainability Purchases" onclick={navToSustainabilityPurchases}>
+      </lightning-button>
+      <br>
+      <lightning-button
+        variant="base" label="Carbon Credit Projects" onclick={navToCrbnCreditProjects}>
       </lightning-button>
     </lightning-accordion-section>
 

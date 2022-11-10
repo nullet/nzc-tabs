@@ -106,6 +106,15 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
+  navToSupplierProduct() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'SupplierProduct',
+        actionName: 'home'
+      }
+    })
+  };
 
 // VALUE CHAIN
 
@@ -206,7 +215,7 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
     })
   };
 
-// --------------------  EMISSIONS FACTOR NAV FUNCTIONS --------------------
+// --------------------  WATER NAV FUNCTIONS --------------------
 
   navToStnryAssetWaterFtprnts() {
     this[NavigationMixin.Navigate]({
@@ -235,6 +244,56 @@ export default class NetZeroTabs extends NavigationMixin(LightningElement) {
       }
     })
   };
+
+// --------------------  CARBON CREDIT NAV FUNCTIONS --------------------
+
+  navToCrbnCreditAllocItems() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'CrbnCreditAllocItem',
+        actionName: 'home'
+      }
+    })
+  };
+  navToCrbnCreditAllocs() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'CrbnCreditAlloc',
+        actionName: 'home'
+      }
+    })
+  };
+  navToSustainabilityCredits() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'SustainabilityCredit',
+        actionName: 'home'
+      }
+    })
+  };
+  navToSustainabilityPurchases() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'SustainabilityPurchase',
+        actionName: 'home'
+      }
+    })
+  };
+  navToCrbnCreditProjects() {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__objectPage',
+      attributes: {
+        objectApiName: 'CrbnCreditProject',
+        actionName: 'home'
+      }
+    })
+  };
+
+
 
 // --------------------  EMISSIONS FACTOR NAV FUNCTIONS --------------------
 // SCOPE 1 AND 2
